@@ -18,5 +18,16 @@ module.exports = {
         url: "http://el-aissati-agency.local/graphql",
       },
     },
+    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-source-wordpress",
+      options: {
+        /*
+         * De volledige URL van je Headless WordPress site's GraphQL API.
+         * Voorbeeld : "https://www.example-site.com/graphql"
+         */
+        url: "http://el-aissati-agency.local/graphql",
+      },
+    },
   ],
 };
